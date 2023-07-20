@@ -63,21 +63,27 @@ body {
   font-size: 1.1rem;
   padding: 0.2rem 1rem 0.4rem 1rem;
   font-weight: 600;
-  color: var(--main_bg);
+  background-color: #1e1e1e;
+  color: #fff;
 }
 
 .g-coordinate {
   margin: 0.3rem 0.5rem;
   display: flex;
+  background-color: #1e1e1e;
+  color: #636363;
   justify-content: space-around;
 }
 .g-coordinate label {
-  color: var(--b1);
+  background-color: #1e1e1e;
+  color: #636363;
   font-weight: 600;
 }
 .g-coordinate input {
   outline: none;
   width: 50%;
+  background-color: #1e1e1e;
+  color: #fff;
   max-width: 100px;
   border: none;
   border-bottom: 2px solid var(--main);
