@@ -24,7 +24,7 @@ Resmi "Reddit Place" etkinliği: [r/place](https://www.reddit.com/r/place/ "r/pl
    > Resim URL'si, ".png", ".webp" gibi doğru resim biçimiyle bitmelidir.
 
 3. **Başlangıç ​​X & Y koordinatlarını girin**
-   > Tuval üzerindeki görüntü için sol üstteki başlangıç ​​noktaları.
+   > Tuval üzerindeki görüntü için sol üstteki pixel başlangıç ​​noktası sayılır.
 4. **'Oluştur'u tıklayın**
    > Sizin için yeni bir çalışma alanı URL'si oluşturulacak. Bağlantıyı takip ettiğinizde, çalışma alanı sağladığınız görüntüyü Reddit Place tuvaline yerleştirmek için hazır olacaktır. Tek yapmanız gereken bağlantıyı topluluğunuzla paylaşmak.
 
