@@ -43,7 +43,7 @@
     img.onload = () => {
       w = img.width * ONE_PIXEL;
       h = img.height * ONE_PIXEL;
-      document.title = "R-Placer " + img.width * img.height + " pixels";
+      document.title = "WersdownR-Placer " + img.width * img.height + " pixels";
 
       bg.canvas.width = w + X_OFFSET;
       bg.canvas.height = h + 2 * Y_OFFSET;
