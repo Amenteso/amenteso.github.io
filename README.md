@@ -16,7 +16,7 @@ Resmi "Reddit Place" etkinliği: [r/place](https://www.reddit.com/r/place/ "r/pl
 
 ### Nasıl kullanılır?:
 
-1. Tıkla --> https://amentes.github.io/r-placer/
+1. Tıkla --> https://amentes.github.io/wersdownr-placer/
 2. **Resim URL'si gir**
 
    > İmgur vb. resim barındırma platformlarında daha önceden hazırlanmış ve paylaşılmış bir resim url'sine ihtiyacınız var.
