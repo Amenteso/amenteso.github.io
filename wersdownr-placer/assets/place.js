@@ -115,7 +115,7 @@
         y < img.height + start_y
       ) {
         let url =
-          "https://new.reddit.com/r/place/?cx=" +
+          "https://reddit.com/r/place/?cx=" +
           x +
           "&cy=" +
           y +
