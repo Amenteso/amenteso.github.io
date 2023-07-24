@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontrol Panel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="topnav">
+      <img src="Logo.png" alt="Logo" height="30px" />
+      <h1>r/Place Kontrol Panel</h1>
+    </div>
+
+    <div class="tabs">
+      <div class="tab active" data-tab="numbers" onclick="showTab('numbers')">
+        Günler
+      </div>
+      <div class="tab" data-tab="months" onclick="showTab('months')">
+        Aylar
+      </div>
+      <div style="margin-left: 10px"></div>
+      <button class="button" data-button="all" onclick="handleStartAll()">
+        Hepsini başlat
+      </button>
+    </div>
+
+    <div class="content" id="numbersContent">
+    </div>
+
+    <div class="content" id="monthsContent" style="display: none">
+    </div>
+    <div class="btc-container">
+      <div id="btc-text" class="btc-text pixelated">+1 BTC</div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
