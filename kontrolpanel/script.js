@@ -28,7 +28,7 @@ function showTab(tabName) {
   
     const bottomDiv = document.createElement("div");
     bottomDiv.className = "bottom";
-    bottomDiv.textContent = "Ready";
+    bottomDiv.textContent = "Hazır";
     numberContainer.appendChild(bottomDiv);
   }
   
@@ -60,7 +60,7 @@ function showTab(tabName) {
   
     const bottomDiv = document.createElement("div");
     bottomDiv.className = "bottom";
-    bottomDiv.textContent = "Ready";
+    bottomDiv.textContent = "Hazır";
     monthContainer.appendChild(bottomDiv);
   }
   
@@ -82,7 +82,7 @@ function showTab(tabName) {
   
       if (count < 0) {
         clearInterval(countdownInterval);
-        bottomElement.innerText = "Ready";
+        bottomElement.innerText = "Hazır";
   
         removeInlineStyles(bottomElement);
         removeInlineStyles(backgroundEl);
