@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html lang="tr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Deadlock Yama Notları</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/x-icon" href="img/ico.webp">
-        <meta name="description" content="Deadlock Türkçe Yama Notları">
-    </head>
-    <body>
-        <div class="container">
-            <h1>Yama Notları</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadlock Yama Notları</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="img/ico.webp">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Deadlock Türkçe Yama Notları">
+</head>
+<body>
 
-            <p class="last-updated">Son güncellenme tarihi: 17 Ağustos 2024</p>
-            
-            <section>
-                <h2>Hatalar Düzeltildi</h2>
-                <ul>
-                    <li>Oyun bitmeden 1 dakika önce seyirci modunun sona ermesi sorunu düzeltildi.</li>
-                    <li>Kahraman Alıştırması'nın sizi en yüksek seviyede başlatması sorunu düzeltildi.</li>
-                    <li>Lady Geist'in Life Drain sırasında zıplayamaması sorunu düzeltildi.</li>
-                    <li>Kahraman sayfalarında yetenek seviyesinin doğru görüntülenmemesi sorunu düzeltildi.</li>
-                    <li>Mağaza müziği varsayılan olarak eski haline getirildi.</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Shiv</h2>
-                <ul>
-                    <li>Tabanca temel hasarı 6.3'ten 5.7'ye düşürüldü.</li>
-                    <li>Serrated Knives çarpışma boyutu %10 azaltıldı.</li>
-                    <li>Serrated Knives mermi hızı %10 azaltıldı.</li>
-                    <li>Serrated Knives temel hasarı 75'ten 35'e düşürüldü.</li>
-                    <li>Serrated Knives ruh ölçeklendirmesi 1'den 0.6'ya düşürüldü.</li>
-                    <li>Serrated Knives DPS ruh ölçeklendirmesi 0.2'den 0.16'ya düşürüldü.</li>
-                    <li>Serrated Knives T3 hasarı +75 Hasar ve +5 Kanamadan, +40 Hasar ve +5 Kanamaya düşürüldü.</li>
-                    <li>Serrated Knives'in hedefe çarpmamış olsa bile diğer birimlere sekmesi sorunu düzeltildi.</li>
-                    <li>Rage ve Bloodletting’in ölüm sonrası temizlenmemesi sorunu düzeltildi.</li>
-                    <li>Bloodletting'in ertelenmiş hasarının uyandırma etkisi düzeltildi.</li>
-                    <li>Killing Blow'dan dolayı bazen dünya dışına düşülme sorunu düzeltildi.</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Ivy</h2>
-                <ul>
-                    <li>Önceki ses işleme geri yüklendi.</li>
-                    <li>Air Drop bekleme süresi 70 saniyeden 80 saniyeye çıkarıldı.</li>
-                    <li>Air Drop süresi 20 saniyeden 17 saniyeye düşürüldü.</li>
-                    <li>Air Drop bombasının temel bölgede susturması kaldırıldı (bu özellik artık T3'ün parçası).</li>
-                    <li>Air Drop bombasının yavaşlatma süresi 3 saniyeden 4.5 saniyeye çıkarıldı.</li>
-                    <li>Air Drop T2 artık +5 metre yarıçapına sahip.</li>
-                    <li>Air Drop T3 artık +12 metre yarıçapına sahip değil.</li>
-                    <li>Air Drop T3 artık debuff süresini +2 saniye uzatmıyor.</li>
-                    <li>Air Drop T3 düşmanları 4.5 saniye susturuyor.</li>
-                </ul>
-            </section>
-        </div>
-    </body>
+    <div class="status-card">
+        <h2>Oyun Durumu</h2>
+        <div id="status"></div>
+    </div>
+
+    <main class="container">
+        <h1 class="text-center section-header" id="yama-not">Yama Notları</h1>
+
+        <p class="last-updated">Son güncellenme tarihi: 17 Ağustos 2024</p>
+
+        <section>
+            <h2 class="section-header">Hatalar Düzeltildi</h2>
+            <ul>
+                <li>Oyun bitmeden 1 dakika önce seyirci modunun sona ermesi sorunu düzeltildi.</li>
+                <li>Kahraman Alıştırması'nın sizi en yüksek seviyede başlatması sorunu düzeltildi.</li>
+                <li>Lady Geist'in Life Drain sırasında zıplayamaması sorunu düzeltildi.</li>
+                <li>Kahraman sayfalarında yetenek seviyesinin doğru görüntülenmemesi sorunu düzeltildi.</li>
+                <li>Mağaza müziği varsayılan olarak eski haline getirildi.</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="section-header">Shiv</h2>
+            <ul>
+                <li>Tabanca temel hasarı 6.3'ten 5.7'ye düşürüldü.</li>
+                <li>Serrated Knives çarpışma boyutu %10 azaltıldı.</li>
+                <li>Serrated Knives mermi hızı %10 azaltıldı.</li>
+                <li>Serrated Knives temel hasarı 75'ten 35'e düşürüldü.</li>
+                <li>Serrated Knives ruh ölçeklendirmesi 1'den 0.6'ya düşürüldü.</li>
+                <li>Serrated Knives DPS ruh ölçeklendirmesi 0.2'den 0.16'ya düşürüldü.</li>
+                <li>Serrated Knives T3 hasarı +75 Hasar ve +5 Kanamadan, +40 Hasar ve +5 Kanamaya düşürüldü.</li>
+                <li>Serrated Knives'in hedefe çarpmamış olsa bile diğer birimlere sekmesi sorunu düzeltildi.</li>
+                <li>Rage ve Bloodletting’in ölüm sonrası temizlenmemesi sorunu düzeltildi.</li>
+                <li>Bloodletting ertelenmiş hasarının uyandırması sorunu düzeltildi.</li>
+                <li>Killing Blow'dan dolayı bazen dünya dışına düşülme sorunu düzeltildi.</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="section-header">Ivy</h2>
+            <ul>
+                <li>Önceki ses işleme geri yüklendi.</li>
+                <li>Air Drop bekleme süresi 70 saniyeden 80 saniyeye çıkarıldı.</li>
+                <li>Air Drop süresi 20 saniyeden 17 saniyeye düşürüldü.</li>
+                <li>Air Drop bombasının temel bölgede susturması kaldırıldı (bu özellik artık T3'ün parçası).</li>
+                <li>Air Drop bombasının yavaşlatma süresi 3 saniyeden 4.5 saniyeye çıkarıldı.</li>
+                <li>Air Drop T2 artık +5 metre yarıçapına sahip.</li>
+                <li>Air Drop T3 artık +12 metre yarıçapına sahip değil.</li>
+                <li>Air Drop T3 artık debuff süresini +2 saniye uzatmıyor.</li>
+                <li>Air Drop T3 düşmanları 4.5 saniye susturuyor.</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
